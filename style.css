@@ -199,4 +199,20 @@ body {
     .draw {
         font-size: 30px;
     }
+
+    .square.hover-x::before {
+        content: "X";
+        color: rgba(224, 224, 224, 0.3); 
+        position: absolute;
+        font-size: 60px;
+        pointer-events: none;
+    }
+    
+    .square.hover-o::before {
+        content: "O";
+        color: rgba(224, 224, 224, 0.3); 
+        position: absolute;
+        font-size: 60px;
+        pointer-events: none;
+    }
 }
